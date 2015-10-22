@@ -21,5 +21,6 @@ The [main.js](https://github.com/JustOpenSource/open-policing-project-data-pipel
 To run it:
 
 ```$ cd open-policing-project-data-pipeline```
+
 ```$ node main.js```
 
