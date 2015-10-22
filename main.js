@@ -117,7 +117,7 @@ function processIAPro(){
     });
 }
 
-function processAIM(){
+function processAIM(cb){
     var AIM_FILE_NAME = '2010_to_2013_stats';
     var AIM_FILE = __dirname + "/data/" + AIM_FILE_NAME + ".csv";
 
@@ -129,15 +129,36 @@ function processAIM(){
         
             if(err){
                 console.log(err);
+                cb(err);
                 return;
             }
+
+            cb();
         });
+    });
+}
+
+function processAll(){
+    var aim = require(__dirname + "/processed/2010_to_2013_stats.json");
+    var iapro = require(__dirname + "/processed/2014_redacted.json");
+
+    
+    var all = _.extend(aim, iapro);
+
+    writeOutputFiles("all", all, function(err){
+        if(err){
+            console.log(err);
+            return;
+        }
     });
 }
 
 function results(){
     processIAPro();
-    processAIM();
+    processAIM(function(){
+        processAll()
+    });
+    
 }
 
 module.exports = results();
