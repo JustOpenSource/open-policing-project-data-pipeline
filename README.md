@@ -15,6 +15,11 @@ The mappings describe which field from a given file type map onto which field wi
 ### IAPro
 [IAPro](https://github.com/JustOpenSource/open-policing-project-data-pipeline/blob/master/mappings/IAPro.1.json)
 
-##Process
-The [process.js](https://github.com/JustOpenSource/open-policing-project-data-pipeline/blob/master/process.js) script converts the original file formats into a format that matches the schema, based on the file mappings.
+##Main
+The [main.js](https://github.com/JustOpenSource/open-policing-project-data-pipeline/blob/master/main.js) file converts the original file formats into a format that matches the schema, based on the file mappings.
+
+To run it:
+
+```$ cd open-policing-project-data-pipeline```
+```$ node main.js```
 
