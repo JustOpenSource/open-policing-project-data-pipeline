@@ -1,0 +1,241 @@
+{
+    "id": "incidentReport.1",
+    "type": "object",
+    "properties": {
+
+        "case_type" : {
+            "description" : "Internal case type (i.e. Investigation, Supervisor Action)",
+            "type" : "string"
+        },
+
+        "reported_date" : {
+            "description" : "Date Incident was Reported",
+            "type" : "string"
+        },
+
+        "report_number" : {
+            "description" : "Internal Case Number",
+            "type" : "string"
+        },
+
+        "witness_race" : {
+            "description" : "Race of Witness to Allegation",
+            "type" : "string"
+        },
+
+        "witness_sex" : {
+            "description" : "Sex of Witness to Allegation",
+            "type" : "string"
+        },
+
+        "witness_subject_complaint" : {
+            "description" : "??????????? - Was the Witness the Same Person who Experienced the Allegation",
+            "type" : "string"
+        },
+
+        "assign_date" : {
+            "description" : "Date the Allegation was Assigned To an Internal Investigator",
+            "type" : "string"
+        },
+
+        "assign_due_date" : {
+            "description" : "Date the Investigator was Assigned to Complete Investigation",
+            "type" : "string"
+        },
+
+        "assign_complete_date" : {
+            "description" : "Date the Investigation was Completed",
+            "type" : "string"
+        },
+
+        "assignment_group" : {
+            "description" : "Unit/Group Assigned to Investigate Allegation",
+            "type" : "string"
+        },
+
+        "assignment_role" : {
+            "description" : "Role of the Person Conducting the Investigation",
+            "type" : "string"
+        },
+
+        "completed_date" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "incident_person_id" : {
+            "description" : "???????? - An Identifier of the Person Making the Complaint",
+            "type" : "string"
+        },
+
+        "incident_status" : {
+            "description" : "Incendent Status (i.e. Closed, Assigned To Line)",
+            "type" : "string"
+        },
+
+        "incident_date" : {
+            "description" : "Date of Incident",
+            "type" : "string"
+        },
+
+        "incident_number" : {
+            "description" : "Internal Case Indentifier",
+            "type" : "string"
+        },
+
+        "employee_id" : {
+            "description" : "Internal Identifier Of Officer",
+            "type" : "string"
+        },
+
+        "employee_name" : {
+            "description" : "Name of Officer",
+            "type" : "string"
+        },
+
+        "employee_assignment" : {
+            "description" : "Role of Employee",
+            "type" : "string"
+        },
+
+        "employee_assigned" : {
+            "description" : "???????????",
+            "type" : "string"
+        },
+
+        "employee_sex" : {
+            "description" : "Sex of Officer",
+            "type" : "string"
+        },
+
+        "employee_race" : {
+            "description" : "Race of Officer",
+            "type" : "string"
+        },
+
+        "complainant_race" : {
+            "description" : "Race of Person Who Filed Complaint",
+            "type" : "string"
+        },
+
+        "complainant_sex" : {
+            "description" : "Sex of Person Who Filed Complaint",
+            "type" : "string"
+        },
+
+        "complainant_homeless" : {
+            "description" : "Was the Complaintant Homeless",
+            "type" : "string"
+        },
+
+        "complainant_subject_complainant" : {
+            "description" : "Was the Person who Complained the Same Person who Experienced the Allegation",
+            "type" : "string"
+        },
+
+        "precinct" : {
+            "description" : "Police Precinct",
+            "type" : "string"
+        },
+
+        "allegation" : {
+            "description" : "What the officer was accussed of doing",
+            "type" : "string"
+        },
+
+        "finding" : {
+            "description" : "Finding of the investigation",
+            "type" : "string"
+        },
+
+        "origin_name" : {
+            "description" : "How The Complaint was Received (i.e. Phone, Email, In Person, Memo)",
+            "type" : "string"
+        },
+
+        "location" : {
+            "description" : "Full Location of the Incident",
+            "type" : "string"
+        },
+
+        "location_city" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "location_street_n" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "location_street_g" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "location_street_t" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "location_street" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "location_suite_apt" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "location_county" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "street_ord" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "date_closed" : {
+            "description" : "Date Internal Investigation Was Concluded",
+            "type" : "string"
+        },
+
+        "file_number" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "expiration_date" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "cit_complaint" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "link_type" : {
+            "description" : "Contains Complainant, Witness and NULL",
+            "type" : "string"
+        },
+
+        "directive" : {
+            "description" : "",
+            "type" : "string"
+        },
+
+        "disposition" : {
+            "description" : "contains 'OPA All Allegations Sustained,' 'OPA Partially Sustained,' 'OPA Supervisor Action Closed' and NULL",
+            "type" : "string"
+        },
+
+        "sustained" : {
+            "description" : "contains only No",
+            "type" : "string"
+        }
+    }
+}

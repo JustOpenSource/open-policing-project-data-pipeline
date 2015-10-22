@@ -1,0 +1,100 @@
+{
+    "case_type" : "Case Type",
+
+    "assignee" : "Assigned",
+
+    "reported_date" : "Report Date",
+
+    "report_number" : "Report Number",
+
+    "witness_race" : "Witness Race",
+
+    "witness_sex" : "Witness Sex",
+
+    "witness_subject_complaint" : "Witness Subject Complaint",
+
+    "assign_date" : "Assign Date",
+
+    "assign_due_date" : "Assign Due Date",
+
+    "assign_complete_date" : "Assign Complete Date",
+
+    "assignment_group" : "Assignment_Group",
+
+    "assignment_role" : "Assignment_Role",
+
+    "completed_date" : "Completed Date",
+
+    "incident_person_id" : "Incident Status",
+
+    "incident_status" : "Incident Person ID",
+
+    "incident_date" : "Incident Date",
+
+    "incident_number" : "Incident #",
+
+    "employee_id" : "Employee ID",
+
+    "employee_name" : "Employee Name",
+
+    "employee_assignment" : "Employee Assignment",
+
+    "employee_assigned" : "Employee Assigned",
+
+    "employee_serial_number" : "Employee Serial #",
+
+    "employee_sex" : "Employee Sex",
+
+    "employee_race" : "Employee Race",
+
+    "complainant_race" : "Complainant Race",
+
+    "complainant_sex" : "Complainant Sex",
+
+    "complainant_homeless" : "Complainant Homeless",
+
+    "complainant_subject_complainant" : "Complainant Subject Complainant",
+
+    "precinct" : "Precinct",
+
+    "allegation" : "Allegation",
+
+    "finding" : "Finding",
+
+    "origin_name" : "Origin Name",
+
+    "location" : "Location",
+
+    "location_city" : "City",
+
+    "location_street_n" : "Street N",
+
+    "location_street_g" : "Street G",
+
+    "location_street_t" : "Street T",
+
+    "location_street" : "Street",
+
+    "location_suite_apt" : "Apartment #",
+
+    "location_county" : "County",
+    
+    "street_ord" : "Street Ord",
+
+    "date_closed" : "Date Closed",
+
+    "file_number" : "File Number",
+
+    "expiration_date" : "Expiration Date",
+
+    "cit_complaint" : "Cit Complaint",
+
+    "link_type" : "Link Type",
+
+    "directive" : "Directive",
+
+    "disposition" : "Disposition",
+
+    "sustained" : "Sustained"
+}
+        
